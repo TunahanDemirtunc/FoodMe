@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "s4+Gtwn9VibH+0cVg8CdCvW39wpqoaAYANpb6CDNbDk9BL7RW+ZQiog3x6dyCt23F6QK0qwViuY2WxVCk0XYMw==",
+  "dgSpecHash": "mMuZYHF4e2R6vnVXbBZJZL3jDekzFL0ss2LL2awHjE1INoOCbogZznXG8h2YH9CP2jcJ4en6WoYZHUCPnTkmig==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tuna\\source\\repos\\CoreMe\\CoreMe\\CoreMe.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Tuna\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\Tuna\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Tuna\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Tuna\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Tuna\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Tuna\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

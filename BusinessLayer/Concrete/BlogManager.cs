@@ -11,11 +11,11 @@ namespace BusinessLayer.Concrete
 {
     public class BlogManager : IBlogService
     {
-        IBlogDal _blogdal;
+        IBlogDal _blogDal;
 
         public BlogManager(IBlogDal blogdal)
         {
-            _blogdal = blogdal;
+            _blogDal = blogdal;
         }
 
         public void BlogAdd(Blog blog)
@@ -33,14 +33,28 @@ namespace BusinessLayer.Concrete
             throw new NotImplementedException();
         }
 
+        public List<Blog> GetBlogListWithCategory()
+        {
+            return _blogDal.GetlistWithCategory();
+        }
+
         public Blog GetById(int id)
         {
             throw new NotImplementedException();
         }
 
+        public List<Blog> GetBlogById(int id)
+        {
+            return _blogDal.GetListAll(x => x.BlogID == id);
+        }
         public List<Blog> GetList()
         {
-            return _blogdal.GetListAll();
+            return _blogDal.GetListAll();
+        }
+
+        public List<Blog> GetBlogListByCustomer(int id)
+        {
+            return _blogDal.GetListAll(x => x.CustomerID == id);
         }
     }
 }
