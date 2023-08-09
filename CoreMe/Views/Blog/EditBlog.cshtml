@@ -1,0 +1,30 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewData["Title"] = "EditBlog";
+    Layout = "~/Views/Shared/CustomerLayout.cshtml";
+}
+
+<h1>Tarif Düzenleme Sayfası</h1>
+
+@using (Html.BeginForm("EditBlog","Blog",FormMethod.Post))
+{
+    @Html.Label("Tarif ID")
+    @Html.TextBoxFor(x=>x.BlogID, new {@class = "form-control"})
+    <br />
+    @Html.Label("Tarif Başlığı")
+    @Html.TextBoxFor(x=>x.BlogTitle, new {@class = "form-control"})
+    <br />
+    @Html.Label("Tarif Thumbnail Url")
+    @Html.TextBoxFor(x=>x.BlogThumbnailImage, new {@class = "form-control"})
+    <br />
+    @Html.Label("Tarif Görseli")
+    @Html.TextBoxFor(x=>x.BlogImage, new {@class = "form-control"})
+    <br />
+    @Html.Label("Tarif Kategori")
+    @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.cv,new {@class ="form-control"})
+    <br />
+    @Html.Label("Tarif İçeriği")
+    @Html.TextAreaFor(x=>x.BlogContent,10,3, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-success">Güncelle</button>
+}

@@ -19,6 +19,14 @@ namespace DataAccessLayer.EntityFramework
             {
                 return c.Blogs.Include(x => x.Category).ToList();
             }
-        }       
+        }
+
+        public List<Blog> GetListWithCategoryByCustomer(int id)
+        {
+            using (var c = new Context())
+            {
+                return c.Blogs.Include(x => x.Category).Where(x=>x.CustomerID == id).ToList();
+            }
+        }
     }
 }
