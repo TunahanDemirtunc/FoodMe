@@ -189,3 +189,5 @@ C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Blog\BlogL
 C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Blog\BlogAdd.cshtml.g.cs
 C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Blog\EditBlog.cshtml.g.cs
 C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogListDashBoard\Default.cshtml.g.cs
+C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryListDashboard\Default.cshtml.g.cs
