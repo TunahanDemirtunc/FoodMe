@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Abstract
 {
-	public interface ICustomerService
+	public interface ICustomerService :IGenericService<Customer>
 	{
-        void CustomerAdd(Customer customer);
+        List<Customer> GetCustomerById(int id);
     }
 }

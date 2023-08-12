@@ -191,3 +191,6 @@ C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Blog\EditB
 C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Dashboard\Index.cshtml.g.cs
 C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Shared\Components\BlogListDashBoard\Default.cshtml.g.cs
 C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Shared\Components\CategoryListDashboard\Default.cshtml.g.cs
+C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Shared\Components\CustomerAboutOnDashboard\Default.cshtml.g.cs
+C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Customer\CustomerEditProfile.cshtml.g.cs
+C:\Users\Tuna\source\repos\CoreMe\CoreMe\obj\Debug\net5.0\Razor\Views\Customer\CustomerAdd.cshtml.g.cs

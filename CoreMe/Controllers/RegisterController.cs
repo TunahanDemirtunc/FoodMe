@@ -25,7 +25,7 @@ namespace CoreMe.Controllers
             {
                 p.CustomerStatus = true;
                 p.CustomerAbout = "Deneme Test";
-                cm.CustomerAdd(p);
+                cm.TAdd(p);
                 return RedirectToAction("Index", "Blog");
             }
             else
